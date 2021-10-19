@@ -84,7 +84,7 @@ params:
       - image: lbs.jpg
         subtitle: Nice to meet you!
         title: About me
-        url: blogs/About_me
+        url: blogs/about_me
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
