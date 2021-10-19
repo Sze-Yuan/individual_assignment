@@ -58,7 +58,7 @@ params:
         label: LinkedIn
         url: https://www.linkedin.com/in/sze-yuan-lexie-wang-189a241a8/
   image: ''
-  name: Sze-Yuan Wang
+  name: Lexie Wang
   navigation:
     button1:
       - name: Get Started
@@ -82,9 +82,9 @@ params:
     enable: yes
     showcase:
       - image: lbs.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
+        subtitle: Nice to meet you!
+        title: About me
+        url: blogs/About me
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
