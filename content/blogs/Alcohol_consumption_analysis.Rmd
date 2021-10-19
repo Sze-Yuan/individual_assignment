@@ -1,0 +1,131 @@
+---
+output:
+  html_document:
+    theme: flatly
+    highlight: zenburn
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+    code_folding: show
+  pdf_document:
+    toc: yes
+---
+
+
+```{r, setup, echo=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE, 
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+options(digits = 3)
+
+# default figure size
+knitr::opts_chunk$set(
+  fig.width=6.75, 
+  fig.height=6.75,
+  fig.align = "center"
+)
+```
+
+
+```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+library(mosaic)
+library(ggthemes)
+library(lubridate)
+library(fivethirtyeight)
+library(here)
+library(skimr)
+library(janitor)
+library(vroom)
+library(tidyquant)
+library(ggrepel)
+library(rvest) # to scrape wikipedia page
+```
+
+
+
+# Where Do People Drink The Most Beer, Wine And Spirits?
+
+Back in 2014, [fivethiryeight.com](https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/) published an article on alcohol consumption in different countries. The data `drinks` is available as part of the `fivethirtyeight` package. Make sure you have installed the `fivethirtyeight` package before proceeding.
+
+
+```{r, load_alcohol_data}
+library(fivethirtyeight)
+data(drinks)
+
+
+# or download directly
+# alcohol_direct <- read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv")
+
+```
+
+
+What are the variable types? Any missing values we should worry about? 
+
+> The variable type for country is character and the type for the rest of the elements are numeric. Further, there are no missing values.
+
+```{r glimpse_skim_data}
+glimpse(drinks) #We check for variable types
+skim(drinks) #We check for missing values
+
+```
+
+
+Make a plot that shows the top 25 beer consuming countries
+
+```{r beer_plot}
+drinks %>%
+  slice_max(order_by = beer_servings, n=25) %>% 
+  ggplot(aes(x = beer_servings, y = fct_reorder(country, beer_servings))) +
+  geom_col(fill="orange")+
+  labs(title="Top 25 beer consuming countries",
+       subtitle = "By servings consumed per person 2010",
+       x="Beer consumption (cans) per person per year",y="Countries",
+       caption = "Source: https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/")+
+  theme_economist()+
+  NULL
+```
+
+Make a plot that shows the top 25 wine consuming countries
+
+```{r wine_plot}
+
+
+drinks %>%
+  slice_max(order_by = wine_servings, n=25) %>% 
+  ggplot(aes(x = wine_servings, y = fct_reorder(country, wine_servings))) +
+  geom_col(fill="red")+
+  labs(title="Top 25 wine consuming countries", 
+       subtitle = "By servings consumed per person 2010",
+       x="Wine consumption (glasses) per person per year",y="Countries",
+       caption = "Source: https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/")+
+  theme_economist()+
+  NULL
+
+
+```
+
+Finally, make a plot that shows the top 25 spirit consuming countries
+```{r spirit_plot}
+drinks %>%
+  slice_max(order_by = spirit_servings, n=25) %>% 
+  ggplot(aes(x = spirit_servings, y = fct_reorder(country, spirit_servings))) +
+  geom_col(fill="blue")+
+  labs(title="Top 25 spirit consuming countries", 
+       subtitle = "By servings consumed per person 2010",
+       x="Spirit consumption (glasses) per person per year",y="Countries",
+       caption = "Source: https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/")+
+  theme_economist()+
+  NULL
+
+
+```
+
+What we can infer from these plots? 
+> For beer consumptions, Namibia ranked the top as the beer consumption rankings. This is largely due to the weathers at Namibia, as Namibian weather is usually dry during hot summers with temperatures up to 40C, beers are always served ice-cold. And for Czech Republic, it is ranked the second position on the beer consumption rankings. This is because its cost advantages, as the production costs of beer in Czech is cheaper than anywhere else.
+
+> For wine consumptions, France is the country that consumes the most wine. Further, we noticed that the top 5 wine consumption countries are all in Europe, which can be inferred from the lifestyles in Europe where people value the work life balance the most. Also, the climate the geographocal conditions are good for wine productions. 
+
+> For spirit consumptions, Grenada ranked the top among all other countires. Further, we see increasing trends of consumption pattern shifts to Carribean countries (including countries ranked 4th and 5th - Haiti and Saint Lucia respectively), as these are usually middle-income countries with fertile grounds. 

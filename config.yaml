@@ -84,11 +84,11 @@ params:
       - image: lbs.jpg
         subtitle: Nice to meet you!
         title: About me
-        url: blogs/About me
+        url: blogs/About_me
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
-        url: blogs/tempus
+        url: blogs/Alcohol_consumption_analysis
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna
