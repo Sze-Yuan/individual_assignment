@@ -102,8 +102,8 @@ params:
         title: Analysis on Hypothesis Testing 
         url: blogs/ht
       - image: IMDB.jpg
-#       subtitle: 
-        title: Analysis of movies- IMDB dataset
+        subtitle: What factors might influence IMDB ratings?
+        title: Analysis On movies- IMDB dataset
         url: blogs/IMDB
   two:
     buttonText: Get Started
