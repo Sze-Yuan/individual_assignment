@@ -89,14 +89,10 @@ params:
         subtitle: Beer, wine and spirit comsumption
         title: Analsyis on alcohol consumption worldwide
         url: blogs/alcohol_consumption_analysis
-      - image: beer.jpg
-        subtitle: Beer, wine and spirit comsumption
-        title: Analsyis on alcohol consumption worldwide
-        url: blogs/alcohol_consumption_analysis
-      - image: gdp.jpg
-        subtitle: GDP components over time and among countries
-        title: GDP components over time and among countries
-        url: blogs/gdp
+      - image: H_T.jpg
+        subtitle: Youth Risk Behavior Surveillance System
+        title: Analysis on Hypothesis Testing 
+        url: blogs/ht
   two:
     buttonText: Get Started
     enable: yes
