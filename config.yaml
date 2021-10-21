@@ -85,6 +85,14 @@ params:
         subtitle: Nice to meet you!
         title: About me
         url: blogs/about_me
+      - image: lbs.jpg
+        subtitle: LBS
+        title: About my school
+        url: blogs/about_me
+      - image: ys.jpg
+        subtitle: I love travelling!
+        title: Places that I have travelled to
+        url: blogs/travel
       - image: beer.jpg
         subtitle: Beer, wine and spirit comsumption
         title: Analsyis on alcohol consumption worldwide
@@ -93,6 +101,10 @@ params:
         subtitle: Youth Risk Behavior Surveillance System
         title: Analysis on Hypothesis Testing 
         url: blogs/ht
+      - image: IMDB.jpg
+#       subtitle: 
+        title: Analysis of movies- IMDB dataset
+        url: blogs/IMDB
   two:
     buttonText: Get Started
     enable: yes
