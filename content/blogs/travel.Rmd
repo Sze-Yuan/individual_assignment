@@ -9,7 +9,7 @@ image: ys.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg
 
 keywords: ""
 slug: travel # slug is the shorthand URL address... no spaces plz
-title: Places that I have travelled to
+title: Places that I have visited
 ---
 
 ```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
@@ -23,6 +23,7 @@ library(janitor)
 ```{r}
 knitr::include_graphics("/img/sy.jpg",error =FALSE)
 ```
+
 This photo was taken in Sanya in Oct 2020. Sanya is the southernmost city on Hainan Island in Southeast China.
 
 2. US\
@@ -36,10 +37,12 @@ This photo was taken at the Yellowstone National Park in Dec 2019.
 ```{r}
 knitr::include_graphics("/img/santorini.jpg",error =FALSE)
 ```
+
 This photo was taken in Santorini in Aug 2018.
 
 4. Austria\
 ```{r}
 knitr::include_graphics("/img/HS.jpg",error =FALSE)
 ```
+
 This photo was taken at in Hallstatt, Austra in Aug 2017. Hallstatt is a small town in the district of Gmunden, in the Austrian state of Upper Austria. Hallstatt is known for its production of salt, dating back to prehistoric times, and gave its name to the Hallstatt culture.

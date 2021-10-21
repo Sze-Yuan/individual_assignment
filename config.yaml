@@ -8,8 +8,7 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.  
+      Welcome to my website!  
     title: Hi, my name is Lexie Wang
   blog: {}
   contact:
@@ -88,10 +87,10 @@ params:
       - image: lbs.jpg
         subtitle: LBS
         title: About my school
-        url: blogs/about_me
+        url: blogs/lbs
       - image: ys.jpg
         subtitle: I love travelling!
-        title: Places that I have travelled to
+        title: Places that I have visited
         url: blogs/travel
       - image: beer.jpg
         subtitle: Beer, wine and spirit comsumption
