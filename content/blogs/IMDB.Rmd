@@ -8,7 +8,7 @@ draft: false
 image: IMDB.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
-slug: IMDB # slug is the shorthand URL address... no spaces plz
+slug: imdb # slug is the shorthand URL address... no spaces plz
 title: Analysis of movies- IMDB dataset
 ---
 
@@ -54,7 +54,6 @@ We will look at a subset sample of movies, taken from the [Kaggle IMDB 5000 movi
 
   
 ```{r, warning=FALSE, message=FALSE}
-
 movies <- read_csv(here::here("data", "movies.csv"))
 glimpse(movies)
 
