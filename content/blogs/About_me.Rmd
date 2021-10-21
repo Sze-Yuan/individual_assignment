@@ -20,14 +20,14 @@ library(janitor)
 ```
 
 1. Personal Background\
-Sze-Yuan (Lexie) Wang is born in *Taipei* on **February 2, 1999** and she moved to *Shanghai* when she was five years old. She then stayed in Shanghai with her parents until she graduated from college in 2021.
+I am born in *Taipei* on **February 2, 1999** and moved to *Shanghai* when I am five years old. I then stayed in Shanghai with my parents until I graduated from college in 2021.
 
 2. Education\
-Sze-Yuan completed her undergraduate degree in July 2021 at **Shanghai University of Finance and Economics**, majoring in Finance. She also completed an exchange study for one semester in University of Pennsylvania in her junior year. She then pursued her masters degree at **London Business School**. She is expected to graduate from LBS's Masters in Financial Analysis programmed in September 2022.
+I completed my undergraduate degree in July 2021 at **Shanghai University of Finance and Economics**, majoring in Finance. I also completed an exchange study for one semester in University of Pennsylvania in my junior year. I then pursued my masters degree at **London Business School** and is expected to graduate from LBS's Masters in Financial Analysis programmed in September 2022.
 
 3. Business Experience\
-Sze-Yuan has developed a genuine interest in investment banking from her previous internship experiences. She has participated in a wide range of deals including an HK IPO, US IPO, A-share IPO, SPAC IPO, M&A and take-private transaction. Through these deal experiences, she has acquried strong financial modeling skills, communication skills, research skills and etc.
+I have developed a genuine interest in investment banking from my previous internship experiences. I have participated in a wide range of deals including an HK IPO, US IPO, A-share IPO, SPAC IPO, M&A and take-private transaction. Through these deal experiences, I have acquried strong financial modeling skills, communication skills, research skills and etc.
 
 4. Interests\
-Sze-Yuan's interests includes traveling, broad games, especially Avalon, and volunteering. She has traveled to more than 10 countries. Her most memorable traveling experience is her trip to Paris where she was accommodated by a French homestay. 
+My interests includes traveling, broad games, especially Avalon, and volunteering. I have traveled to more than 10 countries. My most memorable traveling experience is my trip to Paris where I was accommodated by a French homestay. 
 
