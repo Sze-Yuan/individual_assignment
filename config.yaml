@@ -103,7 +103,7 @@ params:
         url: blogs/ht
       - image: IMDB.jpg
         subtitle: What factors might influence IMDB ratings?
-        title: Analysis On movies- IMDB dataset
+        title: Analysis on movies- IMDB dataset
         url: blogs/imdb
   two:
     buttonText: Get Started

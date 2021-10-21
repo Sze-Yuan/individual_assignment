@@ -9,7 +9,7 @@ image: IMDB.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jp
 
 keywords: ""
 slug: imdb # slug is the shorthand URL address... no spaces plz
-title: Analysis of movies- IMDB dataset
+title: Analysis on movies- IMDB dataset
 ---
 
 
