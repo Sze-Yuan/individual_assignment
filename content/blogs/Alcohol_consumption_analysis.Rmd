@@ -125,6 +125,7 @@ drinks %>%
 ```
 
 What we can infer from these plots? 
+
 > For beer consumptions, Namibia ranked the top as the beer consumption rankings. This is largely due to the weathers at Namibia, as Namibian weather is usually dry during hot summers with temperatures up to 40C, beers are always served ice-cold. And for Czech Republic, it is ranked the second position on the beer consumption rankings. This is because its cost advantages, as the production costs of beer in Czech is cheaper than anywhere else.
 
 > For wine consumptions, France is the country that consumes the most wine. Further, we noticed that the top 5 wine consumption countries are all in Europe, which can be inferred from the lifestyles in Europe where people value the work life balance the most. Also, the climate the geographocal conditions are good for wine productions. 
