@@ -85,10 +85,6 @@ params:
         subtitle: Nice to meet you!
         title: About me
         url: blogs/about_me
-      - image: lbs.jpg
-        subtitle: LBS
-        title: About my shcool
-        url: blogs/about_my_school
       - image: beer.jpg
         subtitle: Beer, wine and spirit comsumption
         title: Analsyis on alcohol consumption worldwide
