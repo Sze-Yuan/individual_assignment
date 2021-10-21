@@ -26,7 +26,7 @@ params:
     enable: yes
     phone:
 #      - phone: (000) 000-0000 x1234 
-        title: Phone
+#        title: Phone
   custom_css: []
   custom_js: []
   description: Your description
@@ -81,30 +81,18 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: lbs.jpg
+      - image: lexie.jpg
         subtitle: Nice to meet you!
         title: About me
         url: blogs/about_me
       - image: lbs.jpg
         subtitle: LBS
-        title: About my school
-        url: blogs/
+        title: About my shcool
+        url: blogs/about_my_school
       - image: beer.jpg
         subtitle: Beer, wine and spirit comsumption
         title: Analsyis on alcohol consumption worldwide
-        url: blogs/Alcohol_consumption_analysis
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+        url: blogs/alcohol_consumption_analysis
   two:
     buttonText: Get Started
     enable: yes
